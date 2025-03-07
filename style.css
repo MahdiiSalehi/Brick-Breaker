@@ -1,0 +1,36 @@
+/* In the name of ALLAH!
+Mahdi Salehi */
+
+
+/* Import styles of components */
+@import url("./components/BrickContainer/brickContainer.css");
+@import url("./components/Brick/brick.css");
+
+@import url("./components/Ball/ball.css");
+
+@import url("./components/Paddle/paddle.css");
+
+
+
+html {
+  height: 100vh !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: black;
+  background-repeat: no-repeat;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

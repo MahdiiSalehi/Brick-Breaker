@@ -1,0 +1,8 @@
+/* In the name of ALLAH!
+Mahdi Salehi */
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  background-color: white;
+}
